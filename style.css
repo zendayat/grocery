@@ -5,6 +5,9 @@
     font-family: 'Poppins', sans-serif;
     
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
 }
@@ -49,6 +52,14 @@ body{
     /* height: 70vh; */
     background-color: rgba(0, 0, 0, 0.966);
     display: none;
+    overflow: hidden;
+
+}
+.MMenu_table{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
 }
 .menu_li{
     display: flex;
@@ -457,7 +468,7 @@ input{
         right: 1.5rem;
     }
     .navbar nav .menu_table{
-        display: none;
+        display: block;
         top: 4.5rem;
         right: 1rem;
     }
